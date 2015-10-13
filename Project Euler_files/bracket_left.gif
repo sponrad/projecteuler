@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Colin Hughes" />
+<meta name="description" content="A website dedicated to the fascinating world of mathematics and programming" />
+<meta name="keywords" content="programming,mathematics,problems,puzzles" />
+
+<title>Project Euler</title>
+<link rel="shortcut icon" href="http://projecteuler.net/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style_main.css" />
+<link rel="stylesheet" type="text/css" href="style_light.css" /></head>
+
+<body>
+<div id="message" class="noprint">You have not updated your password since validating your email address</div><div id="container">
+
+   <div id="nav" class="noprint">
+      <ul>
+<li id="current"><a href="about" title="About" accesskey="h">About</a></li>
+<li><a href="problems" title="Problems" accesskey="1">Problems</a></li>
+<li><a href="progress" title="Progress" accesskey="2">Progress</a></li>
+<li><a href="friends" title="Friends" accesskey="3">Friends</a></li>
+<li><a href="account" title="Account" accesskey="4">Account</a></li>
+<li><a href="news" title="News" accesskey="5">News</a></li>
+<li><a href="statistics" title="Statistics" accesskey="6">Statistics</a></li>
+<li><a href="logout=bbb7d" title="Logout" accesskey="7">Logout</a></li>
+      </ul>
+   </div>
+<div id="info_panel"><div>Logged in as <strong>sponrad</strong><br />Sat, 10 Dec 2011, 00:45</div><a href="online">221 members online</a><div style="vertical-align:middle;">Lights: On <input type="radio" name="scheme" class="radio" value="light"checked="checked"  onclick="location.href='scheme=light';" />&nbsp; Off <input type="radio" name="scheme" class="radio" value="dark"  onclick="location.href='scheme=dark';" /></div><a href="rss2_euler.xml"><img src="images/icon_rss.png" alt="RSS Feed" title="RSS Feed" /></a><a href="secure=yes"><img src="images/icon_lock.png" alt="Use secure connection" title="Use secure connection" /></a></div>
+
+<div id="logo" class="noprint">
+   <img src="images/pe_banner_light.png" alt="Project Euler .net" />
+</div>
+
+<div id="content">
+<h2>About Project Euler</h2>
+<img src="images/euler_portrait.png" alt="Leonhard Euler (1707-1783)" style="margin:10px;float:right;" />
+<h3>Where should I start?</h3>
+<p>That depends on your background. In the Problems table you will be able to see how many people have solved each problem. As a general rule of thumb the more people that have solved it, the easier it is.</p>
+<br />
+<h3>I've written my program but should it take days to get to the answer?</h3>
+<p>Absolutely not! Each problem has been designed according to a "one-minute rule", which means that although it may take several hours to design a successful algorithm with more difficult problems, an efficient implementation will allow a solution to be obtained on a modestly powered computer in less than one minute.</p>
+<br />
+<h3>Does it matter if it takes more than one minute to solve?</h3>
+<p>Of course not, but that should provide the impetus to return to the problem and see how you can improve your approach. But remember that once you've solved a particular problem you will be able to access a thread relating to that problem and it is here that you may be able to pick some tips from others that have solved it.</p>
+<br />
+<h3>I solved it by using a search engine, does that matter?</h3>
+<p>Making use of the internet to research a problem is to be encouraged as there could be hidden treasures of mathematics to be discovered beneath the surface of many of these problems. However, there is a fine line between researching ideas and using the answer you found on another website. If you photocopy a crossword solution then what have you achieved?</p>
+<br />
+<h3>I've checked my program ten times now and I keep getting told my answer is wrong! Have you made a mistake?</h3>
+<p>With newly released problems it is quite possible that a small error may have slipped through the net, or maybe the wording is slightly ambiguous and the problem has not been explained as well as it could. However, when so many people have hit the target and one marksman misses ten times on the run, he/she can hardly shoot his/her own foot and conclude that because the gun is working properly the fault must lie in the target.</p>
+<br />
+<h3>Do you have any hints on solving problems?</h3>
+<p>Read the details of the problem very carefully and make note of any example cases given. Experiment with pencil and paper to get a feel for the ideas behind the problem. If the ideas are new to you, use the internet or books to get some background; the problem should contain clues as to what to look-up. Try writing a program to generate for simple cases and check that your output agrees with the example cases; this will confirm you've understood the problem and are heading in the right direction. Based on this try to extrapolate to estimate the time it will take to get the final answer and if it's going to take significantly more than a minute rethink your strategy.</p>
+<br />
+<h3>What are the levels and awards all about?</h3>
+<p>For every twenty-five problems you solve you will advance one level, which should help encourage you to make short term targets. The awards are earned for a variety of reasons and if you are wondering what you need to do to earn an award go to the <a href="statistics">Statistics</a> page and you can see a complete list of current awards. In the case of both levels and awards you can click on the image on the Statistics page to see which members are currently at that level or who has earned a particular award. It is hoped that the levels and awards will provide a bit of extra fun as you solve the problems.</p>
+<br />
+<h3>There seems to be discussion threads for each problem, so why can't I access some of them?</h3>
+<p>You are only able to access a thread for a particular problem once you have solved it. Once you have access you will be able to see how other members have solved the problem, discuss methods, and share your insights.</p>
+<br />
+<h3>What is Kudos?</h3>
+<p>The purpose of Kudos is to let the poster or other members know that you found a particular post extremely helpful, useful, or well written. You can award up to 5 Kudos points to each problem thread, so only use when you think a post really deserves it.</p>
+<br />
+<h3>Why do some posts disappear?</h3>
+<p>Only the first one hundred posts are automatically made permanent. After this only the most recent one hundred posts are kept; older posts will be automatically deleted. However, if a particularly good post is made then one of the administrators may make a post permanent. Kudos is a useful way to alert administrators to a post which members have found helpful and should be made permanent.</p>
+<br />
+<h3>Is there anywhere else we can discuss?</h3>
+<p>Indeed there is! There is an alternative phpBB forum which has been set up to allow members to engage in general discussions, share ideas relating to problem solving and programming, make suggestions about the website, and ask for general hints/clarification on the current problems. The link is given below, but please be aware that your account at this website has not been automatically transferred to the alternative forum and you will need to set up a separate account.</p>
+<p style="text-align:center;">Forum Web Address: <a href="http://forum.projecteuler.net" target="_blank">http://forum.projecteuler.net</a></p>
+<p>Also please note that your posts will be visible to all members and you are requested to be thoughtful in not posting anything that might explicitly give away how to solve a particular problem.</p>
+<br />
+<h3>How can I contact Project Euler?</h3>
+<p>The preferred way to contact a Project Euler team member is via the alternative phpBB forum given above. The team visit regularly and are able to deal with most issues quickly and efficiently. </p>
+<p>Alternatively you can use the <a href="contact">Contact</a> page to send new problem ideas to <strong>hk</strong> or you can contact <strong>euler</strong> for urgent technical issues. Messages falling outside of these two categories will be ignored.</p>
+<br />
+<h3>How did Project Euler all start?</h3>
+<p>Project Euler was started by Colin Hughes (a.k.a. euler) in October 2001 as a sub-section on <a href="http://mathschallenge.net">mathschallenge.net</a>. Who could have known how popular these types of problems would turn out to be? Since then the membership has continued to grow and Project Euler moved to its own domain in 2006.</p>
+<br />
+<h3>Who runs Project Euler?</h3>
+<p>Ideas for new problems come from our own members and they are developed by a team of hard working and talented mathematicians and programmers. So to put it simply, it is the members that run Project Euler.</p>
+<br />
+<h3>Can I make a donation?</h3>
+<p>Absolutely! Project Euler is entirely financed by its own members, so if you have enjoyed the problems and would like to give something back by helping with the running costs then any donations are gratefully received.</p>
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<div style="text-align:center;">
+   <input type="hidden" name="cmd" value="_s-xclick" />
+   <input type="image" src="https://www.paypal.com/en_GB/i/btn/x-click-but04.gif" style="border:none;" name="submit" alt="PayPal - The safer, easier way to pay online." />
+   <img alt="" style="border:none;" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+   <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+" />
+</div>
+   </form>
+<br />
+<br />
+<div style="margin:0 20px;border:2px solid #bbb;background-color:#e9e9fd;color:#333;padding:10px;font-size:80%;">
+   <p><strong>DISCLAIMER</strong></p>
+   <p>The popularity of Project Euler has increased tremendously over the years since its inception through the concerted effort of numerous people.</p>
+   <p>Members have generally taken pride in showing their achievements. The obvious place to do so is the forum that is set up for each problem. However the increasing popularity has also been attracting people with a different agenda. With so many internet sites publishing answers for the PE problems instead of using the forum on this site, some people now seem to take pride in gathering and submitting those answers for whatever reason.</p>
+   <p>It is humanly impossible for Project Euler, or indeed any member, to reliably differentiate those people from members that have solved the problems under their own steam. The ranking lists on Project Euler should be interpreted for what they are: an indication of the number of correct answers submitted by the member in question and validated by our answer checker. Individual members themselves know best what they have achieved on their own. Laying too much stress on competition might spoil the fun of problem solving which is one of the purposes of Project Euler. Also, any claim from a member about his own achievement cannot be supported as trustworthy by Project Euler. If critical, other means from third parties would be required to verify such claims.</p>
+   <p>Providing quality problems for entertainment and educational purposes will continue to be the main goal of Project Euler, regardless of the intentions of a minority of the members.</p>
+</div><br /><br /><p style="text-align:center;font-size:125%;font-style:italic;color:#999;">&quot;Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the fascinating world of mathematics.&quot;</p></div>
+
+
+
+
+
+<div id="footer" class="noprint">
+<a href="copyright">Project Euler Copyright Information</a>
+<!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <Work rdf:about="">
+      <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/" />
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+   </Work>
+   <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+</div>
+</div>
+<div style="height:1px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div></body>
+</html>
